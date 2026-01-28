@@ -1,8 +1,13 @@
 {
   "hosting": {
+    "target": "portfolio-main-vm",
     "site": "portfolio-main-vm",
     "public": "dist",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
     "rewrites": [
       {
         "source": "**",
