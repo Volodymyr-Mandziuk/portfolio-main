@@ -1,0 +1,63 @@
+.contact-section {
+  text-align: center;
+  padding: 80px 0;
+  background: linear-gradient(
+    180deg,
+    rgba(30, 41, 59, 0.3),
+    rgba(15, 23, 42, 0.8)
+  );
+}
+
+.contact-description {
+  margin: 0 auto 24px;
+  color: var(--text-muted);
+  max-width: 600px;
+  text-align: center;
+}
+
+.contact-section p:not(.contact-description) {
+  margin: 12px 0;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 16px 0;
+}
+
+.contact-icon {
+  font-size: 18px;
+  color: var(--primary);
+}
+
+.contact-item a {
+  color: var(--primary);
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.contact-item a:hover {
+  color: var(--primary-hover);
+}
+
+.copy-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.copy-btn:hover {
+  color: var(--primary);
+  transform: scale(1.1);
+}
+
+.copied {
+  font-size: 14px;
+  color: #22c55e;
+}
+
