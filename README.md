@@ -1,73 +1,92 @@
-# React + TypeScript + Vite
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![License](https://img.shields.io/github/license/Volodymyr-Mandziuk/portfolio-main)
+![Stars](https://img.shields.io/github/stars/Volodymyr-Mandziuk/portfolio-main)
+![Live Demo](https://img.shields.io/badge/Live-Demo-success)
 
-Currently, two official plugins are available:
+# 🚀 Portfolio Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A modern and responsive **personal portfolio website** built with **Vite, React, and TypeScript**.  
+It showcases my projects, technical skills, and contact information in a clean and minimal design.
 
-## React Compiler
+### 🔗 Live Demo
+👉 https://my-portfolio-841e6.web.app/portfolio-main
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🎨 Modern responsive UI
+- 🧩 Modular component structure
+- 🛠 Tech stack section with categorized technologies
+- 📦 Projects showcase with live links
+- 📧 Clickable email (mailto)
+- 📋 Copy-to-clipboard functionality (email & GitHub)
+- 🔗 External GitHub profile link
+- 📱 Fully responsive layout (desktop, tablet, mobile)
+- 🌙 Clean dark-themed design
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🛠 Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- **Frontend:** React, TypeScript, Vite
+- **Icons:** React Icons
+- **Styling:** Custom CSS
+- **Deployment:** Firebase Hosting
+
+---
+
+## 📸 Screenshots
+
+### Hero Section
+
+![Hero](screenshots/hero.png)
+
+### Project Section
+
+![Project](screenshots/project.png)
+
+### Mobile View
+
+![Mobile View](screenshots/mobile.png)
+
+---
+
+## 🚀 Getting Started
+
+### Install & Run Locally
+
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📂 Project Structure 
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+src/
+ ├── components/
+ │    └── Navbar.tsx
+ ├── sections/
+ │    ├── HeroSection.tsx
+ │    ├── TechStackSection.tsx
+ │    ├── ProjectsSection.tsx
+ │    └── ContactSection.tsx
+ ├── styles/
+ ├── App.tsx
+ └── main.tsx 
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+ ## 📬 Contact 
+
+ - **Email:** vmandziuk@gmail.com
+ - **GitHub:** https://github.com/Volodymyr-Mandziuk 
+
+ ## ⭐ Feel free to fork, explore, or use as inspiration!
+
+
+---
+
+
