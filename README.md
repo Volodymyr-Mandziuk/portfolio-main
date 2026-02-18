@@ -13,7 +13,7 @@ A modern and responsive **personal portfolio website** built with **Vite, React,
 It showcases my projects, technical skills, and contact information in a clean and minimal design.
 
 ### 🔗 Live Demo
-👉 https://my-portfolio-841e6.web.app/portfolio-main
+👉 https://my-portfolio-841e6.web.app
 
 ---
 
