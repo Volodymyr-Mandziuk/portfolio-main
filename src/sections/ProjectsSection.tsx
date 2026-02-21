@@ -32,7 +32,7 @@ const ProjectsSection = () => {
           <ProjectCard
             title="Colors App"
             description="Interactive color palette generator built with React and TypeScript."
-            github="https://github.com/Volodymyr-Mandziuk/colors-react-ts"
+            github="https://github.com/Volodymyr-Mandziuk/color-selection"
             live="https://my-portfolio-841e6.web.app/colors"
           />
         </div>
